@@ -72,8 +72,8 @@ a{
 
 .card-spacing{
     display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
+    justify-content: space-evenly;
+    max-width: 1800px;
     gap: 40px;
 }
 
@@ -219,8 +219,8 @@ a{
 
 .circleIcon-2{
     position: absolute;
-    right: 1350px;
-    top: 2150px;
+    right: 1250px;
+    top: 2050px;
     transform: scaleX(-1);
 }
 
@@ -380,7 +380,7 @@ footer {
     border-radius: 10px;
 }
 
-@media only screen and (min-width:1330px) and (max-width: 1919px){
+@media only screen and (min-width:1440px) and (max-width:1680px){
 
     section {
         padding-top: 26px;
@@ -465,8 +465,8 @@ footer {
     
     .card-spacing{
         display: flex;
-        justify-content: space-between;
-        max-width: 1250px;
+        justify-content: space-evenly;
+        max-width: 1400px;
     }
     
     .card-socialMedia{
@@ -623,7 +623,7 @@ footer {
     
     .circleIcon-2{
         position: absolute;
-        right: 900px;
+        right: 1160px;
         top: 1340px;
         height: 434px;
         width: 388px;

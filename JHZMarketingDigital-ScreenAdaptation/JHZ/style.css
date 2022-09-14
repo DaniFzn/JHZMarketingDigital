@@ -107,6 +107,7 @@ nav{
     margin: auto;
     max-width: 1500px;
     max-height: 1800px;
+    height: 600px;
     font-size: 20px;
 }
 
@@ -631,7 +632,7 @@ footer {
 }
 /* responsividade 1440px */
 
-@media only screen and (min-width:1330px) and (max-width: 1919px){
+@media only screen and (min-width:1440px) and (max-width:1680px){
 
 section {
     padding-top: 26px;
@@ -746,8 +747,8 @@ nav{
 
 .card-spacing{
     display: flex;
-    justify-content: space-between;
-    max-width: 1250px;
+    justify-content: space-evenly;
+    max-width: 1500px;
 }
 
 .card-socialMedia{
