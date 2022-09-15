@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+body{
+    animation: 1s ease-out 0s 1 opacityAppears;
+    background: #0c0c0c;
+}
+
+/* Header */
+
+header{
+    color: #fff;
+    background-color: #0c0c0c;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.sticky + main{
+    padding-top: 40px;
+}
+
+nav{
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-list-item{
+    padding: 30px;
+}
+
+.menu-list-item a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* Header */
+/* main */
+
+main {
+    background: #E9EBF2;
+    color: black;
+    height: 500px;
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.main-title{
+    padding: 40px;
+}
+
+.main-container-input{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 1500px;
+    gap: 50px;
+}
+
+.main-container-input p{
+    font-weight: bold;
+}
+
+.main-container-input-email{
+    position: relative;
+    text-align: left;
+    font-size: large;
+    left: 5px;
+}
+
+.main-container-input-telefone{
+    position: relative;
+    text-align: left;
+    font-size: large;
+    left: 5px;
+}
+
+.main-container-input-mensagem{
+    position: relative;
+    text-align: left;
+    font-size: large;
+    left: 5px;
+}
+
+.main-container-input-adjust{
+    gap: 20px;
+}
+
+#input-main-email {
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:flex;
+    width:400px;
+    border:none;
+    border-bottom:1px solid #757575;
+    background-color: transparent;
+	
+}
+
+#input-main-email:focus {
+    outline: none;
+}
+
+#input-main-mensagem {
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:flex;
+    width:870px;
+    border:none;
+    border-bottom:1px solid #757575;
+    background-color: transparent;
+}
+
+#input-main-mensagem:focus {
+    outline: none;
+}
+
+#input-main-telefone {
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:flex;
+    width:400px;
+    border:none;
+    border-bottom:1px solid #757575;
+    background-color: transparent;
+}
+
+#input-main-telefone:focus {
+    outline: none;
+}
+
+.input-main-submit {
+    background: transparent;
+    color: black;
+    border: 1px solid #302929;
+    border-radius: 5px;
+    width: 204px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.input-main-submit:hover  {
+    background: black;
+    color: white;
+    border: 1px solid #302929;
+    border-radius: 5px;
+    width: 204px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.main-container-bar{
+    height: 300px;
+    width: 2px;
+    background-color: #C1B3B3;
+}
+
+.main-container-social-tel h2{
+    padding: 30px;
+}
+
+.main-container-social-tel h3{
+    padding: 30px;
+}
+
+.main-container-social-tel a{
+    padding: 20px;
+}
+
+/* main */
+/* footer */
+
+footer{
+    position: relative;
+    top: 260px;
+}
+
+.copyright h4{
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #D9D9D9;
+    padding: 20px;
+}
+/* footer */
+/* extras */
+@keyframes opacityAppears{
+    0% {
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+/* extras */
+/*1330px - 1679px responsiveness */
+@media only screen and (min-width:1329px) and (max-width:1679px){
+    main{
+        margin-top: 34px;
+        color: #fff;
+    }
+    /* Header */
+    
+    header{
+        color: #fff;
+        background-color: #0c0c0c;
+    }
+    
+    .sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .sticky + main{
+        padding-top: 40px;
+    }
+    
+    nav{
+        margin: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+    
+    .menu-list{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu-list-item{
+        padding: 26px;
+    }
+    
+    .menu-list-item a{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+    /* Header */
+    /* main */
+    
+    main {
+        background: #E9EBF2;
+        color: black;
+        height: 480px;
+        text-align: center;
+    }
+    
+    .main-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .main-title{
+        padding: 40px;
+    }
+    
+    .main-container-input{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        max-width: 1020px;
+        gap: 50px;
+    }
+    
+    .main-container-input p{
+        font-weight: bold;
+    }
+    
+    .main-container-input-email{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 5px;
+    }
+    
+    .main-container-input-telefone{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 5px;
+    }
+    
+    .main-container-input-mensagem{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 5px;
+    }
+    
+    .main-container-input-adjust{
+        gap: 20px;
+    }
+    
+    #input-main-email {
+        font-size:18px;
+        padding:10px 10px 10px 5px;
+        display:flex;
+        width:400px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+        
+    }
+    
+    #input-main-email:focus {
+        outline: none;
+    }
+    
+    #input-main-mensagem {
+        font-size:18px;
+        padding:10px 10px 10px 5px;
+        display:flex;
+        width:870px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+    }
+    
+    #input-main-mensagem:focus {
+        outline: none;
+    }
+    
+    #input-main-telefone {
+        font-size:18px;
+        padding:10px 10px 10px 5px;
+        display:flex;
+        width:400px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+    }
+    
+    #input-main-telefone:focus {
+        outline: none;
+    }
+    
+    .input-main-submit {
+        background: transparent;
+        color: black;
+        border: 1px solid #302929;
+        border-radius: 5px;
+        width: 204px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .input-main-submit:hover  {
+        background: black;
+        color: white;
+        border: 1px solid #302929;
+        border-radius: 5px;
+        width: 204px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .main-container-bar{
+        height: 300px;
+        width: 2px;
+        background-color: #C1B3B3;
+    }
+    
+    .main-container-social-tel h2{
+        padding: 30px;
+    }
+    
+    .main-container-social-tel h3{
+        padding: 30px;
+    }
+    
+    .main-container-social-tel a{
+        padding: 20px;
+    }
+    
+    .copyright h4{
+        position: relative;
+        top: 70px;
+        text-align: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 400;
+        color: #D9D9D9;
+    }
+    /* main */
+}
+/*1330px - 1679px responsiveness */
+/*Tablet responsiveness*/
+@media only screen and (min-width:1023px) and (max-width:1328px){
+    /* Header */
+    nav{
+        height: 46px;
+    }
+    
+    .menu-list-item{
+        padding: 26px;
+    }
+    /* Header */
+    /* main */
+    
+    main{
+        background: #E9EBF2;
+        color: black;
+        height: 500px;
+        text-align: center;
+    }
+    
+    .main-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .main-title{
+        font-size: 12px;
+        padding: 40px;
+    }
+    
+    .main-container-input{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        max-width: 420px;
+        gap: 50px;
+    }
+    
+    .main-container-input p{
+        font-weight: bold;
+    }
+    
+    .main-container-input-email{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 5px;
+    }
+    
+    .main-container-input-telefone{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 5px;
+    }
+    
+    .main-container-input-mensagem{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 5px;
+    }
+    
+    #input-main-email { 
+        
+        font-size:16px;
+        padding:5px 5px 5px 2.5px;
+        display:flex;
+        width:400px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+        
+    }
+    
+    #input-main-email:focus {
+        outline: none;
+    }
+    
+    #input-main-mensagem {
+        font-size:16px;
+        padding:5px 5px 5px 2.5px;
+        display:flex;
+        width:400px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+    }
+    
+    #input-main-mensagem:focus {
+        outline: none;
+    }
+    
+    #input-main-telefone {
+        font-size:16px;
+        padding:5px 5px 5px 2.5px;
+        display:flex;
+        width:400px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+    }
+    
+    #input-main-telefone:focus {
+        outline: none;
+    }
+    
+    .input-main-submit {
+        background: transparent;
+        color: black;
+        border: 1px solid #302929;
+        border-radius: 5px;
+        width: 204px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .input-main-submit:hover  {
+        background: black;
+        color: white;
+        border: 1px solid #302929;
+        border-radius: 5px;
+        width: 204px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .main-container-bar{
+        height: 300px;
+        width: 2px;
+        background-color: #C1B3B3;
+    }
+    
+    .main-container-social-tel h2{
+        padding: 30px;
+    }
+    
+    .main-container-social-tel h3{
+        padding: 30px;
+    }
+    
+    .main-container-social-tel a{
+        padding: 20px;
+    }
+    
+    .copyright h4{
+        position: relative;
+        top: 30px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    /* main */
+}
+/*Tablet responsiveness*/
+/* Celphone responsiveness */
+@media only screen and (min-width:413px) and (max-width:1022px){
+    section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /* Header */
+    header{
+        color: #fff;
+        background-color: #0c0c0c;
+    }
+    
+    .sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .sticky + main{
+        padding-top: 40px;
+    }
+    
+    nav{
+        margin: 10px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 420px;
+        height: 70px;
+    }
+    
+    .menu-list{
+        position: relative;
+        left: 40px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu-list-item{
+        padding: 8px;
+    }
+    
+    a img{
+        position: relative;
+        height: 60px;
+        width: 60px;
+    }
+    
+    .menu-list-item a{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+    /* Header */
+     /* main */
+    
+     main {
+        background: #E9EBF2;
+        color: black;
+        height: 480px;
+        text-align: center;
+    }
+    
+    .main-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .main-title{
+        padding: 36px;
+    }
+    
+    .main-container-input{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        max-width: 500px;
+        gap: 30px;
+    }
+    
+    .main-container-input p{
+        font-weight: bold;
+    }
+    
+    .main-container-input-email{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 2px;
+    }
+    
+    .main-container-input-telefone{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 2px;
+    }
+    
+    .main-container-input-mensagem{
+        position: relative;
+        text-align: left;
+        font-size: large;
+        left: 2px;
+    }
+    
+    .main-container-input-adjust{
+        gap: 8px;
+    }
+    
+    #input-main-email { 
+        
+        font-size:10px;
+        padding:6px 6px 6px 2.5px;
+        display:flex;
+        width:300px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+        
+    }
+    
+    #input-main-email:focus {
+        outline: none;
+    }
+    
+    #input-main-mensagem {
+        font-size:10px;
+        padding:6px 6px 6px 2.5px;
+        display:flex;
+        width:300px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+    }
+    
+    #input-main-mensagem:focus {
+        outline: none;
+    }
+    
+    #input-main-telefone {
+        font-size:10px;
+        padding:6px 6px 6px 2.5px;
+        display:flex;
+        width:300px;
+        border:none;
+        border-bottom:1px solid #757575;
+        background-color: transparent;
+    }
+    
+    #input-main-telefone:focus {
+        outline: none;
+    }
+    
+    .input-main-submit {
+        background: transparent;
+        color: black;
+        border: 1px solid #302929;
+        border-radius: 5px;
+        width: 190px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .input-main-submit:hover  {
+        background: black;
+        color: white;
+        border: 1px solid #302929;
+        border-radius: 5px;
+        width: 190px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .main-container-bar{
+        height: 300px;
+        width: 2px;
+        background-color: #C1B3B3;
+    }
+    
+    .main-container-social-tel h2{
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .main-container-social-tel h3{
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    .main-container-social-tel a{
+        padding: 10px;
+    }
+    
+    .main-container-social-tel img{
+        width: 20px;
+        height: 20px;
+    }
+    /* main */
+    /* footer */
+    .copyright h4{
+        position: relative;
+        top: 130px;
+        text-align: center;
+        align-items: center;
+        font-size: 8px;
+        font-weight: 400;
+        color: #D9D9D9;
+        padding: 20px;
+    }
+    /* footer */
+    /* extras */
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    /* extras */
+    
+}
+/* Celphone responsiveness */
