@@ -20,7 +20,9 @@ main{
     margin: 40px;
     color: #fff;
 }
+
 /* Header */
+
 header{
     color: #fff;
     background-color: #0c0c0c;
@@ -38,7 +40,7 @@ header{
 }
 
 nav{
-    margin: 20px;
+    margin: 40px;
     margin-left: 60px;
     margin-right: 60px;
     display: flex;
@@ -55,6 +57,7 @@ nav{
 
 .menu-list-item{
     padding: 30px;
+    font-size: 20px;
 }
 
 .menu-list-item a{
@@ -62,8 +65,9 @@ nav{
     color: inherit;
     cursor: pointer;
 }
+
 /* Header */
-/* Apresentação */
+/* presentation */
 
 .presentation{
     display: flex;
@@ -79,7 +83,7 @@ nav{
 }
 
 .presentation h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .presentation img{
@@ -88,20 +92,19 @@ nav{
     background-repeat: no-repeat;
 }
 
-/* Apresentação */
-/* Quem somos */
+/* presentation */
+/* Who we are */
 
 .whoWeAre-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     height: 500px;
     width: auto;
     background-image: url("logo/Fundo.svg");
     background-repeat: no-repeat;
-    padding: 20px;
 }
 
 .whoWeAre-container h1{
@@ -110,10 +113,10 @@ nav{
 
 .whoWeAre-container p{
     padding: 50px;
-    font-size: 40px;
+    font-size: 34px;
 }
 
-/* Quem somos */
+/* Who we are */
 /* Goals */
 
 .goals{
@@ -134,7 +137,7 @@ nav{
 
 .goals-body{
     text-align: center;
-    font-size: 40px;
+    font-size: 34px;
 }
 
 /* Goals */
@@ -142,9 +145,9 @@ nav{
 
 .card{
     margin: auto;
-    max-width: 1500px;
+    max-width: 2000px;
     max-height: 1800px;
-    height: 600px;
+    height: 500px;
     font-size: 20px;
 }
 
@@ -162,9 +165,8 @@ nav{
 
 .card-spacing{
     display: flex;
-    justify-content: space-between;
-    max-width: 1500px;
-    gap: 40px;
+    justify-content: space-evenly;
+    max-width: 2000px;
 }
 
 .card-socialMedia{
@@ -176,43 +178,50 @@ nav{
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 10px;
-    height: 220px;
-    width: 390px;
+    height: 340px;
+    width: 460px;
     transition: all 0.5s ease;
     font-size: 30px;
     font-weight: bold;
 }
 
 .card-socialMedia img{
+    margin: 10px;
     border: 1px solid white;
 }
 
 .card-socialMedia h3{
     font-size: 22px;
+    margin: 10px;
 }
 
 .card-socialMedia p{
     font-size: 16px;
+    margin: 10px;
 }
 
 .card-socialMedia h4{
+    text-align: center;
     font-size: 18px;
+    margin: 10px;
 }
 
 .card-socialMedia:hover{
-    width: 400px;
-    height: 440px;
+    height: 400px;
+    width: 520px;
 }
 
 .card-emailCrm{
     display: flex;
+    flex-direction: column;
     align-items: left;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: left;
-    border: 2px solid black;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
-    width: 350px;
-    height: 390px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 340px;
+    width: 460px;
     transition: all 0.5s ease;
     font-size: 30px;
     font-weight: bold;
@@ -220,23 +229,28 @@ nav{
 
 .card-emailCrm img{
     border: 1px solid white;
+    margin: 10px;
 }
 
 .card-emailCrm h3{
     font-size: 22px;
+    margin:10px;
 }
 
 .card-emailCrm p{
     font-size: 16px;
+    margin: 10px;
 }
 
 .card-emailCrm h4{
+    text-align: center;
     font-size: 18px;
+    margin: 10px;
 }
 
 .card-emailCrm:hover{
-    width: 400px;
-    height: 440px;
+    height: 400px;
+    width: 520px;
 }
 
 .card-traffic{
@@ -248,8 +262,8 @@ nav{
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 10px;
-    height: 220px;
-    width: 390px;
+    height: 340px;
+    width: 460px;
     transition: all 0.5s ease;
     font-size: 30px;
     font-weight: bold;
@@ -257,37 +271,44 @@ nav{
 
 .card-traffic img{
     border: 1px solid white;
+    margin:10px;
 }
 
 .card-traffic h3{
     font-size: 22px;
+    margin:10px;
 }
 
 .card-traffic p{
     font-size: 16px;
+    margin:10px;
 }
 
 .card-traffic h4{
+    text-align: center;
+    margin:10px;
     font-size: 18px;
 }
 
 .card-traffic:hover{
-    width: 390px;
-    height: 430px;
+    height: 400px;
+    width: 520px;
 }
+
 /* Services */
 /* Depositions */
+
 .feedback h1{
     text-align: center;
     align-items: center;
     padding: 20px;
+    padding-bottom: 60px;
     font-size: 40px;
 }
 
 .feedback-adjust{
     display: flex;
-    padding: 10px;
-    gap: 10px;
+    justify-content: space-evenly;
 }
 
 .feedback-container-profile{
@@ -383,19 +404,18 @@ nav{
     background: #4F67BB;
 }
 
-/* depositions */
+/* Depositions */
 /* partners */
 
 .partners{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
 }
 
 .partners h1{
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     font-size: 40px;
 }
 
@@ -411,7 +431,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 70px;
+    padding: 60px;
     filter: grayscale(100%);
     transition: all 0.5s ease;
 }
@@ -567,8 +587,10 @@ footer {
     font-size: 18px;
     font-weight: 400;
 }
+
 /* footer */
 /* extras */
+
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -586,10 +608,11 @@ footer {
         opacity: 100%;
     }
 }
-/* extras */
 
+/* extras */
 /*1330px - 1679px responsiveness */
-@media only screen and (min-width:1329px) and (max-width:1679px){
+
+@media only screen and (min-width:1329px) and (max-width:1681px){
 
     section {
         padding-top: 26px;
@@ -600,6 +623,7 @@ footer {
         margin: 34px;
         color: #fff;
     }
+
     /* Header */
     
     header{
@@ -619,7 +643,7 @@ footer {
     }
     
     nav{
-        margin: 20px;
+        margin: 40px;
         margin-left: 60px;
         margin-right: 60px;
         display: flex;
@@ -643,6 +667,7 @@ footer {
         color: inherit;
         cursor: pointer;
     }
+
     /* Header */
     /* Presentation */
     
@@ -660,7 +685,7 @@ footer {
     }
     
     .presentation h1{
-        font-size: 34px;
+        font-size: 40px;
     }
     
     .presentation img{
@@ -670,7 +695,7 @@ footer {
     }
     
     /* Presentation */
-    /* Quem somos */
+    /* Who we are */
 
     .whoWeAre-container{
         display: flex;
@@ -695,7 +720,7 @@ footer {
         font-size: 26px;
     }
 
-    /* Quem somos */
+    /* Who we are */
     /* Goals */
 
     .goals{
@@ -721,6 +746,7 @@ footer {
 
     /* Goals */
     /* Services */ 
+
     .card{
         margin: auto;
         max-width: 1300px;
@@ -755,7 +781,7 @@ footer {
         box-sizing: border-box;
         border: 2px solid white;
         border-radius: 10px;
-        height: 200px;
+        height: 250px;
         width: 390px;
         transition: all 0.5s ease;
         font-size: 30px;
@@ -796,7 +822,7 @@ footer {
         box-sizing: border-box;
         border: 2px solid white;
         border-radius: 10px;
-        height: 200px;
+        height: 250px;
         width: 390px;
         transition: all 0.5s ease;
         font-size: 30px;
@@ -837,7 +863,7 @@ footer {
         box-sizing: border-box;
         border: 2px solid white;
         border-radius: 10px;
-        height: 200px;
+        height: 250px;
         width: 390px;
         transition: all 0.5s ease;
         font-size: 30px;
@@ -850,17 +876,17 @@ footer {
     }
 
     .card-traffic h3{
-        font-size: 20px;
+        font-size: 18px;
         margin: 10px;
     }
 
     .card-traffic p{
-        font-size: 12px;
+        font-size: 10px;
         margin: 10px;
     }
 
     .card-traffic h4{
-        font-size: 14px;
+        font-size: 12px;
         margin: 10px;
     }
 
@@ -868,114 +894,124 @@ footer {
         width: 430px;
         height: 240px;
     }
+
     /* Services */
     /* Depositions */
+
+    .feedback{
+        padding: 50px;
+    }
+
     .feedback h1{
         text-align: center;
         align-items: center;
         padding: 20px;
-        font-size: 30px;
+        padding-bottom: 40px;
+        font-size: 26px;
     }
-
+    
     .feedback-adjust{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
-
+    
     .feedback-container-profile{
         display: flex;
     }
-
+    
     .feedback-container-profile h1{
-        padding-top: 10px;
+        padding-top: 2px;
     }
-
+    
     .feedback-container-profile p{
         position: relative;
-        top: 10px;
-        right: 40px;
+        top: 2px;
+        right: 30px;
     }
-
+    
     .feedback-profilePic{
-        height: 50px;
-        width: 50px;
+        height: 20px;
+        width: 20px;
         border-radius: 50px;
         border: 2px solid white;
     }
-
+    
     .feedback-container1{
         box-sizing: border-box;
         border: 2px solid white;
         border-radius: 10px;
-        height: 220px;
-        width: 400px;
+        height: 200px;
+        width: 280px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         transition: all ease-in 0.5s;
+        font-size: 14px;
     }
-
+    
     .feedback-container1 p{
-        margin: 20px;
-    }
-
-    .feedback-container1 div{
         margin: 10px;
     }
-
+    
+    .feedback-container1 div{
+        margin: 5px;
+    }
+    
     .feedback-container1:hover{
         background: #4F67BB;
     }
-
+    
     .feedback-container2{
         box-sizing: border-box;
         border: 2px solid white;
         border-radius: 10px;
-        height: 220px;
-        width: 400px;
+        height: 200px;
+        width: 280px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         transition: all ease-in 0.5s;
+        font-size: 14px;
     }
-
+    
     .feedback-container2 p{
-        margin: 20px;
-    }
-
-    .feedback-container2 div{
         margin: 10px;
     }
-
+    
+    .feedback-container2 div{
+        margin: 5px;
+    }
+    
     .feedback-container2:hover{
         background: #4F67BB;
     }
-
+    
     .feedback-container3{
         box-sizing: border-box;
         border: 2px solid white;
         border-radius: 10px;
-        height: 220px;
-        width: 400px;
+        height: 200px;
+        width: 280px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         transition: all ease-in 0.5s;
+        font-size: 14px;
     }
-
+    
     .feedback-container3 p{
-        margin: 20px;
-    }
-
-    .feedback-container3 div{
         margin: 10px;
     }
-
+    
+    .feedback-container3 div{
+        margin: 5px;
+    }
+    
     .feedback-container3:hover{
         background: #4F67BB;
     }
 
-    /* depositions */
+    /* Depositions */
     /* Partners */
     
     .partners{
@@ -1160,10 +1196,14 @@ footer {
         font-size: 12px;
         font-weight: 400;
     }
+
     /* Footer */
+
     }
+
 /*1330px - 1679px responsiveness */
 /*Tablet responsiveness*/
+
 @media only screen and (min-width:1023px) and (max-width:1328px){
 
 
@@ -1236,6 +1276,7 @@ nav{
 
 /* Goals */
 /* Services */ 
+
 .card{
     margin: auto;
     max-height: 900px;
@@ -1379,8 +1420,10 @@ nav{
     width: 300px;
     height: 200px;
 }
-/* Serviços */
+
+/* Services */
 /* Depositions */
+
 .feedback h1{
     text-align: center;
     align-items: center;
@@ -1488,6 +1531,7 @@ nav{
 .feedback-container3:hover{
     background: #4F67BB;
 }
+
 /* Depositions */
 /* Partners */
 
@@ -1678,10 +1722,13 @@ footer {
     font-size: 10px;
     font-weight: 400;
 }
+
 /* Footer */
 }
+
 /*Tablet responsiveness*/
 /* Celphone responsiveness */
+
 @media only screen and (min-width:413px) and (max-width:1022px){
     section {
         padding-top: 10px;
@@ -1692,7 +1739,9 @@ footer {
         margin: 20px;
         color: #fff;
     }
+
     /* Header */
+
     header{
         color: #fff;
         background-color: #0c0c0c;
@@ -1715,7 +1764,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 420px;
+        width: 390px;
         height: 70px;
     }
     
@@ -1729,6 +1778,7 @@ footer {
     
     .menu-list-item{
         padding: 8px;
+        font-size: 14px;
     }
     
     a img{
@@ -1742,8 +1792,9 @@ footer {
         color: inherit;
         cursor: pointer;
     }
+
     /* Header */
-    /* Apresentação */
+    /* presentation */
     
     .presentation{
         position: relative;
@@ -1765,8 +1816,8 @@ footer {
         bottom: 60px;
     }
     
-    /* Apresentação */
-    /* Quem somos */
+    /* presentation */
+    /* Who we are */
     
     .whoWeAre-container{
         display: flex;
@@ -1790,8 +1841,8 @@ footer {
         font-size: 16px;
     }
     
-    /* Quem somos */
-    /* Objetivo */
+    /* Who we are */
+    /* goals */
     
      .goals{
         display: flex;
@@ -1814,8 +1865,8 @@ footer {
         font-size: 16px;
     }
     
-    /* Objetivo */
-    /* Serviços */
+    /* goals */
+    /* Services */
     
     .card{
         margin: 10px;
@@ -1964,8 +2015,9 @@ footer {
         width: 120px;
         height: 160px;
     }
-    /* Serviços */
-    /* depositions */
+
+    /* Services */
+    /* Depositions */
 
     .feedback h1{
         text-align: center;
@@ -1978,6 +2030,8 @@ footer {
         display: grid;
         justify-content: center;
         align-items: center;
+        max-height: 800px;
+        gap: 10px;
     }
     
     .feedback-container-profile{
@@ -2075,7 +2129,8 @@ footer {
     .feedback-container3:hover{
         background: #4F67BB;
     }
-    /* depositions */
+
+    /* Depositions */
     /* partners */
     
     .partners{
@@ -2124,7 +2179,7 @@ footer {
     footer {
         background: #E9EBF2;
         color: black;
-        height: 480px;
+        height: 510px;
         text-align: center;
     }
     
@@ -2269,16 +2324,20 @@ footer {
     
     .copyright h4{
         position: relative;
-        top: 20px;
+        top: 80px;
         font-size: 8px;
         font-weight: 400;
     }
+
     /* footer */
     /* extras */
+
     ::-webkit-scrollbar{
         display: none;
     }
+
     /* extras */
     
 }
+
 /* Celphone responsiveness */

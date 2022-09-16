@@ -21,7 +21,9 @@ main{
     margin: 40px;
     color: #fff;
 }
+
 /* Header */
+
 header{
     color: #fff;
     background-color: #0c0c0c;
@@ -35,11 +37,11 @@ header{
 }
 
 .sticky + main{
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 nav{
-    margin: 20px;
+    margin: 40px;
     margin-left: 60px;
     margin-right: 60px;
     display: flex;
@@ -56,6 +58,7 @@ nav{
 
 .menu-list-item{
     padding: 30px;
+    font-size: 20px;
 }
 
 a{
@@ -64,74 +67,145 @@ a{
     cursor: pointer;
 }
 
+.title{
+    padding: 40px;
+    font-size: 60px;
+}
+
 /* Header */
-/* Apresentações */
+/* Presentations */
+
+
 .SocialMedia{
+    display: flex;
     background-color: #485b9f;
-    height: 450px;
-    text-align: left;
+    height: 300px;
+    padding: 10px;
+}
+
+.SocialMedia h1{
+    padding: 5px;
+}
+
+.SocialMedia p{
+    padding: 5px;
 }
 
 .SocialMedia-container{
-    margin: 5px;
-    margin-left: 20px;
     max-width: 1200px;
-    font-size: 28px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.SocialMedia img {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
 }
 
 .emailCrm{
-    height: 450px;
-    text-align: left;
+    display: flex;
+    background-color: transparent;
+    height: 300px;
+    padding: 10px;
+}
+
+.emailCrm h1{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.emailCrm p{
+    padding: 5px;
+    margin-top: 20px;
 }
 
 .emailCrm-container{
-    margin: 5px;
-    margin-left: 20px;
     max-width: 1200px;
-    font-size: 28px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px;
+}
+
+.emailCrm img {
+    display: flex;
+    width: 400px;
+    height: 350px;
 }
 
 .paidTraffic{
+    display: flex;
     background-color: #485b9f;
-    height: 450px;
-    text-align: left;
+    height: 300px;
+    padding: 10px;
+}
+
+.paidTraffic h1{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.paidTraffic p{
+    padding: 5px;
+    margin-top: 20px;
 }
 
 .paidTraffic-container{
-    margin: 5px;
-    margin-left: 800px;
-    font-size: 28px;
-    
+    max-width: 1200px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px;
 }
 
+.paidTraffic img {
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
 
 .seo{
-    height: 450px;
-    text-align: left;
+    display: flex;
+    background-color: transparent;
+    height: 300px;
+    padding: 10px;
+}
+
+.seo h1{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.seo p{
+    padding: 5px;
+    margin-top: 20px;
 }
 
 .seo-container{
-    margin: 5px;
-    margin-left: 800px;
-    font-size: 28px;
-}
-/* Apresentações */
-/* Círculo */
-
-.circleIcon-1{
-    position: absolute;
-    top: 1020px;
-    right: 60px;
+    max-width: 1200px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px;
 }
 
-.circleIcon-2{
-    position: absolute;
-    right: 1250px;
-    top: 2050px;
-    transform: scaleX(-1);
+.seo img {
+    display: flex;
+    width: 300px;
+    height: 300px;
 }
-/* Círculo */
+
+/* Presentations */
+
 /* Footer */
+
 footer {
     background: #E9EBF2;
     color: black;
@@ -275,8 +349,10 @@ footer {
     font-size: 18px;
     font-weight: 400;
 }
+
 /* footer */
 /* extras */
+
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -294,14 +370,24 @@ footer {
         opacity: 100%;
     }
 }
+
 /* extras */
 /*1330px - 1679px responsiveness */
-@media only screen and (min-width:1329px) and (max-width:1679px){
+
+@media only screen and (min-width:1329px) and (max-width:1670px){
+
+    main{   
+        color: #fff;
+    }
+
+    .sticky + main{
+        padding-top: 80px;
+    }
 
     /* Header */
-    
+
     nav{
-        margin: 20px;
+        margin: 40px;
         margin-left: 60px;
         margin-right: 60px;
         display: flex;
@@ -325,6 +411,12 @@ footer {
         color: inherit;
         cursor: pointer;
     }
+
+    .title{
+        padding: 40px;
+        font-size: 40px;
+    }
+
     /* Header */
     /* Presentations */
     
@@ -395,27 +487,9 @@ footer {
         margin-left: 560px;
         font-size: 22px;
     }
+
     /* Presentations */
-    /* Circle */
     
-    .circleIcon-1{
-        position: absolute;
-        top: 200px;
-        right: 40px;
-        height: 404px;
-        width: 358px;
-    }
-    
-    .circleIcon-2{
-        position: absolute;
-        right: 920px;
-        top: 780px;
-        height: 404px;
-        width: 358px;
-        transform: scaleX(-1);
-    }
-    
-    /* Circle */
     /* Footer */
     
     footer {
@@ -560,10 +634,14 @@ footer {
         font-size: 12px;
         font-weight: 400;
     }
+
     /* Footer */
+
 }
+
 /*1330px - 1679px responsiveness */
 /*Tablet responsiveness*/
+
 @media only screen and (min-width:1023px) and (max-width:1328px){
 
     
@@ -574,6 +652,7 @@ footer {
     .menu-list-item{
         padding: 26px;
     }
+
     /* Header */
     /* Presentations */
     
@@ -636,18 +715,9 @@ footer {
         margin-left: 20px;
         max-width: 1200px;
     }
+
     /* Presentations */
-    /* Circle */
-    
-    .circleIcon-1{
-        display: none;
-    }
-    
-    .circleIcon-2{
-        display: none;
-    }
-    
-    /* Circle */
+   
     /* Footer */
     
     footer {
@@ -792,10 +862,14 @@ footer {
         font-size: 10px;
         font-weight: 400;
     }
+
     /* Footer */
+
 }
+
 /*Tablet responsiveness*/
 /* Celphone responsiveness */
+
 @media only screen and (min-width:413px) and (max-width:1022px){
     section {
         padding-top: 10px;
@@ -807,6 +881,10 @@ footer {
         color: #fff;
     }
 
+    .title{
+        font-size: 34px;
+    }
+
     /* Header */
     
     nav{
@@ -815,7 +893,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 420px;
+        width: 390px;
         height: 70px;
     }
     
@@ -829,6 +907,7 @@ footer {
     
     .menu-list-item{
         padding: 8px;
+        font-size: 14px;
     }
     
     a img{
@@ -842,8 +921,10 @@ footer {
         color: inherit;
         cursor: pointer;
     }
+
     /* header */
-    /* Apresentações */
+    /* Presentations */
+
     .SocialMedia{
         background-color: #485b9f;
         height: 240px;
@@ -855,6 +936,8 @@ footer {
     }
 
     .SocialMedia-container{
+        display: flex;
+        flex-direction: row;
         margin: 5px;
         margin-left: 20px;
         max-width: 400px;
@@ -907,23 +990,15 @@ footer {
         font-size: 22px;
         margin-left: 20px;
     }
-    /* Apresentações */
-    /* Círculo */
 
-    .circleIcon-1{
-        display: none;
-    }
-
-    .circleIcon-2{
-        display: none;
-    }
-    /* Círculo */
+    /* Presentations */
+   
     /* footer */
     
     footer {
         background: #E9EBF2;
         color: black;
-        height: 480px;
+        height: 510px;
         text-align: center;
     }
     
@@ -1068,14 +1143,17 @@ footer {
     
     .copyright h4{
         position: relative;
-        top: 20px;
+        top: 80px;
         font-size: 8px;
         font-weight: 400;
     }
+
     /* footer */
     /* extras */
+
     ::-webkit-scrollbar{
         display: none;
     }
 }
+
 /* Celphone responsiveness */
